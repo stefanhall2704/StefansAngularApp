@@ -16,7 +16,7 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule,
   ],
   template: `
-  <article>
+  <!-- <article>
     <img class="listing-photo" [src]="housingLocation?.photo"
       alt="Exterior photo of {{housingLocation?.name}}"/>
     <section class="listing-description">
@@ -44,7 +44,7 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
         <button type="submit" class="primary" onclick="window.location = '/'">Apply now</button>
       </form>
     </section>
-  </article>
+  </article> -->
 `,
   styleUrls: ['./details.component.css']
 })
@@ -64,12 +64,12 @@ export class DetailsComponent {
       this.housingLocation = housingLocation;
     });
   }
-  submitApplication() {
-    this.housingService.submitApplication(
-      this.applyForm.value.firstName ?? '',
-      this.applyForm.value.lastName ?? '',
-      this.applyForm.value.email ?? ''
-    );
-  }
+  // submitApplication() {
+  //   this.housingService.submitApplication(
+  //     this.applyForm.value.firstName ?? '',
+  //     this.applyForm.value.lastName ?? '',
+  //     this.applyForm.value.email ?? ''
+  //   );
+  // }
 
 }
