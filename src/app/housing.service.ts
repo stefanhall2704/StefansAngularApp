@@ -15,7 +15,16 @@ export class HousingService {
     return await data.json() ?? {};
   }
   constructor() { }
-  submitApplication(firstName: string, lastName: string, email: string) {
-    console.log(`Homes application received: firstName: ${firstName}, lastName: ${lastName}, email: ${email}.`);
+  submitApplication(houseName: string, cityName: string, stateName: string, photo: string, wifi: string, laundry: string) {
+    const data = {
+      houseName: houseName,
+      cityName: cityName,
+      stateName: stateName,
+      photo: photo,
+      wifi: wifi,
+      laundry: laundry,
+    };
+    console.log(data);
   }
 }
+
