@@ -1,0 +1,11 @@
+/Users/stefanhall/Downloads/first-app-lesson-00/server/target/debug/deps/url-f17d1119c1d8e40d.rmeta: /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/lib.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/host.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/origin.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/parser.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/path_segments.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/slicing.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/quirks.rs
+
+/Users/stefanhall/Downloads/first-app-lesson-00/server/target/debug/deps/url-f17d1119c1d8e40d.d: /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/lib.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/host.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/origin.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/parser.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/path_segments.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/slicing.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/quirks.rs
+
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/lib.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/host.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/origin.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/parser.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/path_segments.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/slicing.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.3.1/src/quirks.rs:
