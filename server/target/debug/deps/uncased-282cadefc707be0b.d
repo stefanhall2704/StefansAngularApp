@@ -1,0 +1,11 @@
+/Users/stefanhall/Downloads/first-app-lesson-00/server/target/debug/deps/uncased-282cadefc707be0b.rmeta: /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/lib.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/serde.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/owned.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/borrowed.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/as_uncased.rs
+
+/Users/stefanhall/Downloads/first-app-lesson-00/server/target/debug/deps/libuncased-282cadefc707be0b.rlib: /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/lib.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/serde.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/owned.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/borrowed.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/as_uncased.rs
+
+/Users/stefanhall/Downloads/first-app-lesson-00/server/target/debug/deps/uncased-282cadefc707be0b.d: /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/lib.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/serde.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/owned.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/borrowed.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/as_uncased.rs
+
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/lib.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/serde.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/owned.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/borrowed.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.9/src/as_uncased.rs:

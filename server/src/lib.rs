@@ -2,6 +2,7 @@ use diesel::connection::Connection;
 use diesel::prelude::*;
 use diesel::sqlite::SqliteConnection;
 use dotenvy::dotenv;
+use std::env;
 
 use self::models::NewHouse;
 use self::models::House as house;
