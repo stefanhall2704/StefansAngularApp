@@ -1,6 +1,6 @@
 -- Your SQL goes here
 CREATE TABLE House (
-  ID Integer PRIMARY KEY,
+  ID INTEGER PRIMARY KEY NOT NULL,
   HouseName varchar(255) NOT NULL,
   City varchar(255) NOT NULL,
   StateName varchar(255) NOT NULL,

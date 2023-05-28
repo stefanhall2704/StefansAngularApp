@@ -1,0 +1,1 @@
+/Users/stefanhall/Downloads/first-app-lesson-00/server/target/debug/libserver.rlib: /Users/stefanhall/Downloads/first-app-lesson-00/server/src/lib.rs /Users/stefanhall/Downloads/first-app-lesson-00/server/src/models.rs /Users/stefanhall/Downloads/first-app-lesson-00/server/src/schema.rs
