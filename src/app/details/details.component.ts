@@ -16,12 +16,13 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule,
   ],
   template: `
-  <!-- <article>
+  <article>
+    <button class="primary" type="button">Remove Listing</button>
     <img class="listing-photo" [src]="housingLocation?.Photo"
       alt="Exterior photo of {{housingLocation?.HouseName}}"/>
     <section class="listing-description">
       <h2 class="listing-heading">{{housingLocation?.HouseName}}</h2>
-      <p class="listing-location">{{housingLocation?.City}}, {{housingLocation?.state}}</p>
+      <p class="listing-location">{{housingLocation?.City}}, {{housingLocation?.StateName}}</p>
     </section>
     <section class="listing-features">
       <h2 class="section-heading">About this housing location</h2>
@@ -30,7 +31,7 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
         <li>Washer/Dryer: {{housingLocation?.Laundry ? 'Yes' : 'No'}}</li>
       </ul>
     </section>
-  </article> -->
+  </article>
 `,
   styleUrls: ['./details.component.css']
 })
