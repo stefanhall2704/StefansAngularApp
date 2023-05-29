@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HousingLocation } from './housinglocation';
-import { Router } from '@angular/router';
 
 
 interface HouseData {
@@ -33,16 +32,22 @@ async function postData(url: string = "", data: HouseData) {
   providedIn: 'root'
 })
 export class HousingService {
-  url = 'http://localhost:3000/locations';
+  url = 'http://localhost:8000/api/all_listings';
   async getAllHousingLocations(): Promise<HousingLocation[]> {
-    const data = await fetch(this.url);
-    return await data.json() ?? [];
+    const response = await fetch(this.url);
+    const data = await response.json();
+    console.log(data);
+    return data ? data : [];
   }
+  
+  
   async getHousingLocationById(id: number): Promise<HousingLocation | undefined> {
-    const data = await fetch(`${this.url}/${id}`);
-    return await data.json() ?? {};
+    const response = await fetch(`http://localhost:8000/api/listing/${id}`);
+    const data = await response.json();
+    console.log(data);
+    return data ? data : [];
   }
-  constructor(private router: Router) { }
+  constructor() { }
   async submitApplication(houseName: string, cityName: string, stateName: string, photo: string, wifi: string, laundry: string) {
     localStorage.setItem("createListing", `Listing for ${houseName} has successfully been listed`);
     const data: HouseData = {

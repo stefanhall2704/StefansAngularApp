@@ -19,7 +19,7 @@ import { HousingService } from '../housing.service';
     </form>
   </section>
   <section class="results">
-  <app-housing-location *ngFor="let housingLocation of filteredLocationList" [housingLocation]="housingLocation"></app-housing-location>
+  <app-housing-location *ngFor="let housingLocation of housingLocationList" [housingLocation]="housingLocation"></app-housing-location>
   </section>
   `,
   styleUrls: ['./home.component.css']
@@ -33,7 +33,7 @@ export class HomeComponent {
     }
 
     this.filteredLocationList = this.housingLocationList.filter(
-      housingLocation => housingLocation?.city.toLowerCase().includes(text.toLowerCase())
+      housingLocation => housingLocation?.City.toLowerCase().includes(text.toLowerCase())
     );
   }
   housingService: HousingService = inject(HousingService);

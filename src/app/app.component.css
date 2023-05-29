@@ -10,3 +10,12 @@ header {
 .content {
   padding: var(--content-padding);
 }
+button:hover {
+  cursor: pointer;
+}
+.create-listing-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -20px;
+}
+

@@ -11,15 +11,21 @@ import { RouterModule } from '@angular/router';
   ],
   template: `
   <main>
+  <header class="brand-name">
     <a [routerLink]="['/']">
-      <header class="brand-name">
-        <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
-      </header>
+      <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
     </a>
-    <section class="content">
-      <router-outlet></router-outlet>
-    </section>
-  </main>
+    <div class="create-listing-container">
+      <a [routerLink]="['/createListing']">
+        <button class="primary" type="button">Create Listing</button>
+      </a>
+    </div>
+  </header>
+  <section class="content">
+    <router-outlet></router-outlet>
+  </section>
+</main>
+
   `,
   styleUrls: ['./app.component.css'],
 })
