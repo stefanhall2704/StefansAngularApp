@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HousingLocation } from './housinglocation';
+import { Router } from '@angular/router';
+
 
 interface HouseData {
   houseName: string,
@@ -40,8 +42,9 @@ export class HousingService {
     const data = await fetch(`${this.url}/${id}`);
     return await data.json() ?? {};
   }
-  constructor() { }
+  constructor(private router: Router) { }
   async submitApplication(houseName: string, cityName: string, stateName: string, photo: string, wifi: string, laundry: string) {
+    localStorage.setItem("createListing", `Listing for ${houseName} has successfully been listed`);
     const data: HouseData = {
       houseName: houseName,
       cityName: cityName,
@@ -50,8 +53,16 @@ export class HousingService {
       wifi: Boolean(wifi),
       laundry: Boolean(laundry),
     };
+
     let url: string = "http://localhost:8000/api/house/create";
-    await postData(url, data);
+    await postData(url, data)
+    .then((data) => {
+
+    })
+    .finally(() => {
+      window.location.href = '/';
+    });
+    
     console.log(data);
   }
 }

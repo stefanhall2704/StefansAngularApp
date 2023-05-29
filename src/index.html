@@ -16,5 +16,17 @@
 </head>
 <body>
   <app-root></app-root>
+  <script>
+    const createListing = localStorage.getItem('createListing');
+    const deleteListing = localStorage.getItem('deleteListing');
+    if (createListing){
+      toastr.success(createListing);
+      localStorage.removeItem('createListing');
+    }
+    if (deleteListing){
+      toastr.success(deleteListing);
+      localStorage.removeItem('deleteListing');
+    }
+  </script>
 </body>
 </html>

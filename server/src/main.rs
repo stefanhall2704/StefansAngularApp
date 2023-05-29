@@ -13,7 +13,8 @@ fn main() {
         .mount(
             "/",
             routes![
-                create_house_listing
+                create_house_listing,
+                delete_house_listing
             ],
         )
         .launch();
