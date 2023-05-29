@@ -17,7 +17,6 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
   ],
   template: `
   <article>
-    <button class="primary" type="button">Remove Listing</button>
     <img class="listing-photo" [src]="housingLocation?.Photo"
       alt="Exterior photo of {{housingLocation?.HouseName}}"/>
     <section class="listing-description">
