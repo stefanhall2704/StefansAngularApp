@@ -14,7 +14,9 @@ fn main() {
             "/",
             routes![
                 create_house_listing,
-                delete_house_listing
+                delete_house_listing,
+                get_house_listing,
+                get_all_house_listings
             ],
         )
         .launch();

@@ -68,3 +68,12 @@ pub fn delete_db_house(conn: &mut SqliteConnection, id: i32) {
         .execute(conn)
         .expect("Error deleting team");
 }
+
+pub fn get_db_house_listings(
+    conn: &mut SqliteConnection,
+) -> Result<Vec<models::House>, ()> {
+    let house_listings_db = house_schema::table
+        .load::<house>(conn)
+        .unwrap();
+    Ok(house_listings_db)
+}

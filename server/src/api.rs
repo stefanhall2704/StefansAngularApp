@@ -1,5 +1,5 @@
 #![allow(non_snake_case)]
-use rocket::{post, delete};
+use rocket::{post, delete, get};
 use serde_json::{to_string, Value};
 use server::*;
 use rocket_contrib::json::{Json, JsonValue};
@@ -52,3 +52,19 @@ pub fn delete_house_listing(id: i32, json: Json<JsonValue>) -> Result<std::strin
     let response = format!("House Listing Deleted{}", id);
     Ok(response)
 }
+
+#[get("/api/listing/<id>")]
+pub fn get_house_listing(id: i32) -> Result<std::string::String, ()> {
+    let house_listing = get_db_house_by_id(id).unwrap();
+    let user_json = to_string(&house_listing).unwrap();
+    Ok(user_json)
+}
+
+#[get("/api/all_listings")]
+pub fn get_all_house_listings() -> Result<std::string::String, ()> {
+    let connection = &mut establish_connection();
+    let listings = get_db_house_listings(connection).unwrap();
+    let listings_json = serde_json::to_string(&listings).unwrap();
+    Ok(listings_json)
+}
+

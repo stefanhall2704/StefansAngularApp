@@ -10,7 +10,7 @@ use serde::*;
 
 use crate::schema::House as house;
 
-#[derive(Queryable)]
+#[derive(Queryable, Serialize)]
 pub struct House {
     pub ID: i32,
     pub HouseName: String,
