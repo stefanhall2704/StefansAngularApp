@@ -49,7 +49,7 @@ export class HousingService {
   }
   constructor() { }
   async submitApplication(houseName: string, cityName: string, stateName: string, photo: string, wifi: string, laundry: string) {
-    localStorage.setItem("createListing", `Listing for ${houseName} has successfully been listed`);
+    
     const data: HouseData = {
       houseName: houseName,
       cityName: cityName,
@@ -64,7 +64,11 @@ export class HousingService {
     .then((data) => {
 
     })
+    .catch((err) => {
+      localStorage.setItem("createListing", `Error creating listing for house: ${houseName} with error: ${err.message}`);
+    })
     .finally(() => {
+      localStorage.setItem("createListing", `Listing for ${houseName} has successfully been listed`);
       window.location.href = '/';
     });
     
