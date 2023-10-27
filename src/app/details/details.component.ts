@@ -20,6 +20,9 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
     <img class="listing-photo" [src]="housingLocation?.Photo"
       alt="Exterior photo of {{housingLocation?.HouseName}}"/>
     <section class="listing-description">
+      <form [formGroup]="applyForm" (submit)="deleteListing()">
+      <button type="submit" class="primary">Delete Listing</button>
+      </form>
       <h2 class="listing-heading">{{housingLocation?.HouseName}}</h2>
       <p class="listing-location">{{housingLocation?.City}}, {{housingLocation?.StateName}}</p>
     </section>
@@ -39,10 +42,16 @@ export class DetailsComponent {
   route: ActivatedRoute = inject(ActivatedRoute);
   housingService = inject(HousingService);
   housingLocation: HousingLocation | undefined;
+  applyForm = new FormGroup({
+    ID: new FormControl(''),
+  });
   constructor() {
     const housingLocationId = parseInt(this.route.snapshot.params['id'], 10);
     this.housingService.getHousingLocationById(housingLocationId).then(housingLocation => {
       this.housingLocation = housingLocation;
     });
+  }
+  deleteListing() {
+    this.housingService.deleteListing()
   }
 }

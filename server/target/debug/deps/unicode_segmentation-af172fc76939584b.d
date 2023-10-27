@@ -1,9 +1,0 @@
-/Users/stefanhall/Downloads/first-app-lesson-00/server/target/debug/deps/unicode_segmentation-af172fc76939584b.rmeta: /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/lib.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/grapheme.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/sentence.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/word.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/tables.rs
-
-/Users/stefanhall/Downloads/first-app-lesson-00/server/target/debug/deps/unicode_segmentation-af172fc76939584b.d: /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/lib.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/grapheme.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/sentence.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/word.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/tables.rs
-
-/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/lib.rs:
-/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/grapheme.rs:
-/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/sentence.rs:
-/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/word.rs:
-/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.10.1/src/tables.rs:

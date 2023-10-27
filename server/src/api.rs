@@ -43,6 +43,7 @@ pub fn create_house_listing(json: String) -> Result<&'static str, ()> {
     Ok("House")
 }
 
+
 #[delete("/api/houseListing/<id>", format = "application/json", data = "<json>")]
 pub fn delete_house_listing(id: i32, json: Json<JsonValue>) -> Result<std::string::String, ()> {
     //required print statement
