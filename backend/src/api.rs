@@ -1,6 +1,6 @@
 #![allow(non_snake_case)]
 use rocket::{State, post, delete, get, response::status, http::Status};
-use serde_json::{to_string, Value};
+use serde_json::to_string;
 use server::*;
 use rocket_contrib::json::{Json, JsonValue};
 use crate::Metrics;
