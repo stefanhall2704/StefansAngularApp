@@ -35,6 +35,7 @@ hyper-multipart-rfc7578 = "0.8.0"
 dirs = "4.0.0"
 rocket_cors = "0.5.2"
 async-std = "*"
+prometheus = "0.12"
 
 
 [[bin]]

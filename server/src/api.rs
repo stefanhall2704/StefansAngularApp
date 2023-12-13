@@ -1,8 +1,12 @@
 #![allow(non_snake_case)]
-use rocket::{post, delete, get};
+use rocket::{State, post, delete, get, response::status, http::Status};
 use serde_json::{to_string, Value};
 use server::*;
 use rocket_contrib::json::{Json, JsonValue};
+use prometheus::{Counter, TextEncoder, Encoder};
+use crate::Metrics;
+use rocket::response::{self, Response, Responder};
+
 
 extern crate rocket;
 extern crate rocket_contrib;
@@ -12,7 +16,11 @@ extern crate serde_json;
 
 
 #[post("/api/house/create", format = "text/plain", data = "<json>")]
-pub fn create_house_listing(json: String) -> Result<&'static str, ()> {
+pub fn create_house_listing(
+    state: State<Metrics>, 
+    json: String
+) -> Result<status::Custom<String>, status::Custom<String>> {
+    state.counter.inc();
     let connection = &mut establish_connection();
 
     let data_string = json;
@@ -30,7 +38,7 @@ pub fn create_house_listing(json: String) -> Result<&'static str, ()> {
     let laundry: bool = v["laundry"].as_bool().unwrap();
     let available_units: String = to_string("0").unwrap();
 
-    create_db_house(
+    match create_db_house(
         connection,
         houseName,
         cityName,
@@ -39,10 +47,17 @@ pub fn create_house_listing(json: String) -> Result<&'static str, ()> {
         available_units,
         wifi,
         laundry
-    );
-    Ok("House")
+    ) {
+        Ok(_) => {
+            state.http_responses.with_label_values(&["200"]).inc();
+            Ok(status::Custom(Status::Created, "House created".to_string()))
+        },
+        Err(_) => {
+            state.http_responses.with_label_values(&["400"]).inc();
+            Err(status::Custom(Status::BadRequest, "Failed to create house".to_string()))
+        }
+    }
 }
-
 
 #[delete("/api/houseListing/<id>", format = "application/json", data = "<json>")]
 pub fn delete_house_listing(id: i32, json: Json<JsonValue>) -> Result<std::string::String, ()> {

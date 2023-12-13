@@ -20,6 +20,8 @@ pub fn establish_connection() -> SqliteConnection {
 }
 
 
+use diesel::result::Error as DieselError;
+
 pub fn create_db_house(
     conn: &mut SqliteConnection,
     house_name: String,
@@ -29,7 +31,7 @@ pub fn create_db_house(
     available_units: String,
     wifi: bool,
     laundry: bool,
-) {
+) -> Result<(), DieselError> {
     let house = NewHouse {
         HouseName: house_name, 
         City: city, 
@@ -39,11 +41,13 @@ pub fn create_db_house(
         Wifi: wifi, 
         Laundry: laundry
     };
+
     diesel::insert_into(house_schema::table)
         .values(&house)
         .execute(conn)
-        .expect("Error saving new team");
+        .map(|_| ()) // Convert the successful result to ()
 }
+
 
 pub fn get_db_house_by_id(id: i32) -> Result<NewHouse, ()> {
     let connection = &mut establish_connection();
