@@ -1,0 +1,10 @@
+/Users/stefanhall/Documents/work/StefansAngularApp/backend/target/debug/deps/libproc_macro2-dd4de5083a3f8def.rmeta: /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-0.4.30/src/lib.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-0.4.30/src/strnom.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-0.4.30/src/fallback.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-0.4.30/src/wrapper.rs
+
+/Users/stefanhall/Documents/work/StefansAngularApp/backend/target/debug/deps/libproc_macro2-dd4de5083a3f8def.rlib: /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-0.4.30/src/lib.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-0.4.30/src/strnom.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-0.4.30/src/fallback.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-0.4.30/src/wrapper.rs
+
+/Users/stefanhall/Documents/work/StefansAngularApp/backend/target/debug/deps/proc_macro2-dd4de5083a3f8def.d: /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-0.4.30/src/lib.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-0.4.30/src/strnom.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-0.4.30/src/fallback.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-0.4.30/src/wrapper.rs
+
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-0.4.30/src/lib.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-0.4.30/src/strnom.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-0.4.30/src/fallback.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-0.4.30/src/wrapper.rs:

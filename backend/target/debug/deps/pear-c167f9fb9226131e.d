@@ -1,0 +1,11 @@
+/Users/stefanhall/Documents/work/StefansAngularApp/backend/target/debug/deps/libpear-c167f9fb9226131e.rmeta: /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/lib.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/macros.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/input.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/result.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/debug.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/combinators.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/parsers.rs
+
+/Users/stefanhall/Documents/work/StefansAngularApp/backend/target/debug/deps/pear-c167f9fb9226131e.d: /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/lib.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/macros.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/input.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/result.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/debug.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/combinators.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/parsers.rs
+
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/lib.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/macros.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/input.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/result.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/debug.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/combinators.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pear-0.1.5/src/parsers.rs:

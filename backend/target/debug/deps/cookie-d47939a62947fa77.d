@@ -1,0 +1,11 @@
+/Users/stefanhall/Documents/work/StefansAngularApp/backend/target/debug/deps/libcookie-d47939a62947fa77.rmeta: /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/lib.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/builder.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/parse.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/jar.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/delta.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/draft.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/expiration.rs
+
+/Users/stefanhall/Documents/work/StefansAngularApp/backend/target/debug/deps/cookie-d47939a62947fa77.d: /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/lib.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/builder.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/parse.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/jar.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/delta.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/draft.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/expiration.rs
+
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/lib.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/builder.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/parse.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/jar.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/delta.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/draft.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cookie-0.17.0/src/expiration.rs:

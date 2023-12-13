@@ -1,0 +1,10 @@
+/Users/stefanhall/Documents/work/StefansAngularApp/backend/target/debug/deps/libnotify-49d90bdbd3d4acd8.rmeta: /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/lib.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/fsevent.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/null.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/poll.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/debounce/mod.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/debounce/timer.rs
+
+/Users/stefanhall/Documents/work/StefansAngularApp/backend/target/debug/deps/notify-49d90bdbd3d4acd8.d: /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/lib.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/fsevent.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/null.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/poll.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/debounce/mod.rs /Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/debounce/timer.rs
+
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/lib.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/fsevent.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/null.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/poll.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/debounce/mod.rs:
+/Users/stefanhall/.cargo/registry/src/index.crates.io-6f17d22bba15001f/notify-4.0.17/src/debounce/timer.rs:
