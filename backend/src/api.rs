@@ -5,7 +5,6 @@ use server::*;
 use rocket_contrib::json::{Json, JsonValue};
 use crate::Metrics;
 
-
 extern crate rocket;
 extern crate rocket_contrib;
 extern crate serde;
