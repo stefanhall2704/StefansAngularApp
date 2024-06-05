@@ -10,6 +10,7 @@ use self::schema::House as house_schema;
 
 pub mod models;
 pub mod schema;
+pub mod api;
 
 #[allow(non_snake_case)]
 pub fn establish_connection() -> SqliteConnection {

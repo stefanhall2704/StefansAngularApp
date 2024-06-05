@@ -52,24 +52,24 @@ async function deleteData(url: string = "") {
   providedIn: 'root'
 })
 export class HousingService {
-  url = 'http://localhost:8000/api/all_listings';
+  url = 'http://backend.local/api/all_listings';
   async getAllHousingLocations(): Promise<HousingLocation[]> {
     const response = await fetch(this.url);
     const data = await response.json();
     console.log(data);
     return data ? data : [];
   }
-  
-  
+
+
   async getHousingLocationById(id: number): Promise<HousingLocation | undefined> {
-    const response = await fetch(`http://localhost:8000/api/listing/${id}`);
+    const response = await fetch(`http://backend.local/api/listing/${id}`);
     const data = await response.json();
     console.log(data);
     return data ? data : [];
   }
   constructor() { }
   async submitApplication(houseName: string, cityName: string, stateName: string, photo: string, wifi: string, laundry: string) {
-    
+
     const data: HouseData = {
       houseName: houseName,
       cityName: cityName,
@@ -79,7 +79,7 @@ export class HousingService {
       laundry: Boolean(laundry),
     };
 
-    let url: string = "http://localhost:8000/api/house/create";
+    let url: string = "http://backend.local/api/house/create";
     await postData(url, data)
     .then((data) => {
 
@@ -91,13 +91,13 @@ export class HousingService {
       localStorage.setItem("createListing", `Listing for ${houseName} has successfully been listed`);
       window.location.href = "/";
     });
-    
+
     console.log(data);
   }
   async deleteListing() {
     const currentURL = window.location.href;
     const ID = currentURL.split('/').pop() || '';
-    let url = `http://localhost:8000/api/houseListing/${ID}`;
+    let url = `http://backend.local/api/houseListing/${ID}`;
     console.log(url);
     await deleteData(url)
       .then(() => {
