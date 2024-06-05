@@ -29,7 +29,8 @@ This project is designed to run on a Kubernetes cluster managed by Minikube. Ple
 Deploy the application to your Minikube cluster using the deployment script:
 
 ```sh
-./kubernetes/deploy.sh
+cd kubernetes
+./deploy.sh
 ```
 
 ### Access the Application
@@ -42,5 +43,6 @@ minikube service --all
 ### Restart the Application
 If you need to restart the application, use the restart script:
 ```sh
-./kubernetes/restart.sh
+cd kubernetes
+./restart.sh
 ```
